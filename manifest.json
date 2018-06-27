@@ -1,9 +1,15 @@
 {
-    "name": "Youtube Obvious Subscribe",
+    "name": "Youtube Obvious Subscribed",
     "manifest_version": 2,
     "version": "0.1",
-    "description": "Chrome extension showing you in an obvious way when you're subscribed to a YT channel",
+    "description": "While on youtube, makes the difference between subscribe and subscribeD buttons obvious. Because I can !",
     "icons": {
+        "16": "src/icons/icon16.png",
+        "48": "src/icons/icon48.png",
+        "128": "src/icons/icon128.png"
+    },
+    "browser_action": {
+        "default_title": "While on youtube, makes the difference between subscribe and subscribeD buttons obvious. Because I can !"
     },
     "content_scripts": [
         {
