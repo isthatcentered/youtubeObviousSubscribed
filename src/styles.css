@@ -1,0 +1,5 @@
+paper-button[subscribed].ytd-subscribe-button-renderer {
+	background: transparent !important;
+	box-shadow: 0 0 0 2px hsl(0, 0%, 93.3%) inset !important;
+	color:      hsla(0, 0%, 6.7%, 0.3) !important;
+}

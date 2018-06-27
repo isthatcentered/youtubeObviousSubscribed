@@ -1,0 +1,24 @@
+{
+    "name": "Youtube Obvious Subscribe",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Chrome extension showing you in an obvious way when you're subscribed to a YT channel",
+    "icons": {
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*"
+            ],
+            "css": [
+                "src/styles.css"
+            ],
+            "js": [
+                "src/content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}
