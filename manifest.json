@@ -12,9 +12,6 @@
             ],
             "css": [
                 "src/styles.css"
-            ],
-            "js": [
-                "src/content.js"
             ]
         }
     ],
